@@ -2,7 +2,7 @@
   "private": true,
   "name": "MyPortfolio",
   "version": "0.1.0",
-  "homepage": "dhawalshah48.github.io",
+  "homepage": "https://dhawalshah48.github.io/",
   "scripts": {
     "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",
