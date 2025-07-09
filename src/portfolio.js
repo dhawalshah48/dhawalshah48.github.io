@@ -2,16 +2,16 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Dhawal's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Graduate student located in Georgia, USA with 4+ years of experience as a Senior Software Engineer - Machine Learning. Expertise in NLP, Computer Vision, and AWS cloud solutions, specializing in document processing automation and LLM. Proven track record of deploying scalable ML systems to enhance efficiency and accuracy in enterprise environments.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Dhawal Shah Portfolio",
     type: "website",
     url: "http://ashutoshhathidara.com/",
   },
@@ -19,11 +19,11 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Dhawal Shah",
+  logo_name: "DhawalShah",
+  nickname: "",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Graduate student located in Georgia, USA with 4+ years of experience as a Senior Software Engineer - Machine Learning. Expertise in NLP, Computer Vision, and AWS cloud solutions, specializing in document processing automation and LLM. Proven track record of deploying scalable ML systems to enhance efficiency and accuracy in enterprise environments.",
   resumeLink:
     "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
