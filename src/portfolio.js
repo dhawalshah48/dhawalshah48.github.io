@@ -5,6 +5,7 @@ const settings = {
     isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
+
 //SEO Related settings
 const seo = {
     title: "Dhawal Shah — AI/ML Engineer",
@@ -25,7 +26,7 @@ const greeting = {
     subTitle:
           "AI/ML Engineer with 5+ years of experience building production ML systems and agentic LLM infrastructure. M.S. in Computer Science (AI specialization), Iowa State University. Targeting AI Engineer / Machine Learning Engineer / MLOps / LLMOps roles.",
     resumeLink:
-          "https://www.linkedin.com/in/dhawalshah04/", // TODO: replace with a hosted resume PDF link
+                  "https://github.com/dhawalshah48/dhawalshah48/blob/main/Dhawal_Shah_ML_Resume_generic.pdf",
     portfolio_repository: "https://github.com/dhawalshah48/dhawalshah48.github.io",
     githubProfile: "https://github.com/dhawalshah48",
 };
@@ -321,7 +322,7 @@ const experience = {
               title: "Internships",
               experiences: [
                 {
-                            title: "Software Engineer Intern (Backend & Cloud)",
+                                                    title: "Founding AI Engineer",
                             company: "Hermamind Inc.",
                             company_url: "https://github.com/dhawalshah48",
                             logo_path: "google_logo.png",
