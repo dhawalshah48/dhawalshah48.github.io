@@ -266,7 +266,7 @@ const degrees = {
       {
               title: "Institute of Engineering and Technology, DAVV, Indore",
               subtitle: "B.E. in Computer Engineering",
-              logo_path: "davv_logo.svg",
+              logo_path: "davv_logo.png",
               alt_name: "DAVV, Indore",
               duration: "Aug 2016 - Apr 2020",
               descriptions: [
