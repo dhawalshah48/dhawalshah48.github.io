@@ -253,7 +253,7 @@ const degrees = {
       {
               title: "Iowa State University",
               subtitle: "M.S. in Computer Science — Artificial Intelligence",
-              logo_path: "iu_logo.png",
+              logo_path: "isu_logo.svg",
               alt_name: "Iowa State University",
               duration: "Aug 2024 - Aug 2026",
               descriptions: [
@@ -266,7 +266,7 @@ const degrees = {
       {
               title: "Institute of Engineering and Technology, DAVV, Indore",
               subtitle: "B.E. in Computer Engineering",
-              logo_path: "iiitk_logo.png",
+              logo_path: "davv_logo.svg",
               alt_name: "DAVV, Indore",
               duration: "Aug 2016 - Apr 2020",
               descriptions: [
@@ -289,63 +289,63 @@ const experience = {
     description:
           "5+ years building production ML systems and, most recently, agentic LLM infrastructure — across enterprise (Avalara), early-stage product work (Hermamind, Digitenium), and applied research (Iowa State University).",
     header_image_path: "experience.svg",
-    sections: [
-      {
-              title: "Work",
-              work: true,
-              experiences: [
-                {
-                            title: "Senior Software Engineer, Machine Learning",
-                            company: "Avalara Technologies",
-                            company_url: "https://www.avalara.com/",
-                            logo_path: "google_logo.png",
-                            duration: "Jul 2023 - Aug 2024",
-                            location: "India",
-                            description:
-                                          "Built and deployed production document-AI models (Random Forest, Donut, LayoutXLM, LiLT, spaCy) for classification and entity extraction. Replaced a third-party API with in-house models, cutting inference cost ~90% (benchmarked vs. AWS Comprehend on a 500-document evaluation set). Led onboarding for 8 new engineers — 50+ hours of mentoring and code review.",
-                            color: "#1F70C1",
-                },
-                {
-                            title: "Software Engineer, Machine Learning",
-                            company: "Avalara Technologies",
-                            company_url: "https://www.avalara.com/",
-                            logo_path: "google_logo.png",
-                            duration: "Jul 2020 - Jun 2023",
-                            location: "India",
-                            description:
-                                          "Automated 30% of 100,000+ manual document-processing decisions across 4 teams, cutting per-document processing time from 10 minutes to 1 minute. Built a model abstraction layer that auto-served the best candidate model per task. Operated services on AWS (SageMaker, EKS, EC2); used ClearML for experiment tracking and Label Studio for human-in-the-loop annotation.",
-                            color: "#1F70C1",
-                },
-                      ],
-      },
-      {
-              title: "Internships",
-              experiences: [
-                {
-                                                    title: "Founding AI Engineer",
-                            company: "Hermamind Inc.",
-                            company_url: "https://github.com/dhawalshah48",
-                            logo_path: "google_logo.png",
-                            duration: "Jan 2026 - Aug 2026",
-                            location: "Remote",
-                            description:
-                                          "Friend's startup; worked directly with the CEO/co-founder on an AI-assisted B2B RFQ-to-quote platform. Built a LangGraph agent orchestration layer with typed state and human-approval checkpoints, a provider-agnostic model routing layer (OpenAI, Anthropic, Ollama, Qwen), multi-tenant PostgreSQL/FastAPI persistence, and a GitHub Actions CI/CD pipeline with a 200+ test suite. Has a standing offer to return remotely after the internship.",
-                            color: "#0879bf",
-                },
-                {
-                            title: "AI Engineer Intern",
-                            company: "Digitenium",
-                            company_url: "https://github.com/dhawalshah48",
-                            logo_path: "google_logo.png",
-                            duration: "Jun 2025 - Aug 2025",
-                            location: "Remote",
-                            description:
-                                          "Built a Python simulation framework (pandas) modeling asset allocation and redemption flows for a decentralized liquidity protocol; projected ~20% improvement in asset velocity.",
-                            color: "#9b1578",
-                },
-                      ],
-      },
-        ],
+        sections: [
+            {
+                                title: "Work",
+                                work: true,
+                                experiences: [
+                                    {
+                                                                title: "Founding AI Engineer",
+                                                                company: "Hermamind Inc.",
+                                                                company_url: "https://github.com/dhawalshah48",
+                                                                logo_path: "hermamind_logo.svg",
+                                                                duration: "Jan 2026 - Aug 2026",
+                                                                location: "Remote",
+                                                                description:
+                                                                                                "Founding engineer on a friend's AI-assisted B2B RFQ-to-quote platform, working directly with the CEO/co-founder. Built a LangGraph agent orchestration layer with typed Pydantic state, deterministic transitions, tool invocation, and human-approval checkpoints -- reducing invalid execution outcomes by 100% and improving end-to-end task reliability from 25% to 100% across an adversarial test suite. Designed a typed tool execution framework for SQL-backed customer/product/pricing capabilities, eliminating failed tool executions and hallucinated recommendations across 10 tool-call scenarios. Built a provider-agnostic model routing layer across OpenAI, Anthropic, Ollama, and Qwen, cutting inference cost ~93% while holding task success at 100% across routing comparisons. Architected multi-tenant persistence with PostgreSQL, FastAPI, and Alembic, and shipped a GitHub Actions CI/CD pipeline with a 200+ test suite. Has a standing offer to return remotely after this engagement.",
+                                                                color: "#0879bf",
+                                    },
+                                    {
+                                                                title: "Senior Software Engineer, Machine Learning",
+                                                                company: "Avalara Technologies",
+                                                                company_url: "https://www.avalara.com/",
+                                                                logo_path: "avalara_logo.svg",
+                                                                duration: "Jul 2023 - Aug 2024",
+                                                                location: "India",
+                                                                description:
+                                                                                                "Built and deployed production document-AI models (Random Forest, Donut, LayoutXLM, LiLT, spaCy) for classification and entity extraction across multiple document types and tax jurisdictions. Replaced a third-party OCR/classification API with in-house models, cutting inference cost ~90% (benchmarked vs. AWS Comprehend on a 500-document evaluation set) while improving classification accuracy. Owned the model deployment pipeline on AWS SageMaker/EKS, including monitoring and rollback. Led onboarding for 8 new engineers -- 50+ hours of mentoring and code review -- and served as the team's point of contact for ML infrastructure decisions.",
+                                                                color: "#1F70C1",
+                                    },
+                                    {
+                                                                title: "Software Engineer, Machine Learning",
+                                                                company: "Avalara Technologies",
+                                                                company_url: "https://www.avalara.com/",
+                                                                logo_path: "avalara_logo.svg",
+                                                                duration: "Jul 2020 - Jun 2023",
+                                                                location: "India",
+                                                                description:
+                                                                                                "Automated 30% of 100,000+ manual document-processing decisions across 4 teams, cutting per-document processing time from 10 minutes to 1 minute and freeing up analyst hours for higher-value review. Built a model abstraction layer that auto-served the best candidate model per task based on confidence and historical accuracy, enabling safe rollout of new models without client-facing downtime. Operated services on AWS (SageMaker, EKS, EC2); used ClearML for experiment tracking and Label Studio for human-in-the-loop annotation and active-learning label collection.",
+                                                                color: "#1F70C1",
+                                    },
+                                                    ],
+            },
+            {
+                                title: "Internships",
+                                experiences: [
+                                    {
+                                                                title: "AI Engineer Intern",
+                                                                company: "Digitenium",
+                                                                company_url: "https://github.com/dhawalshah48",
+                                                                logo_path: "digitenium_logo.svg",
+                                                                duration: "Jun 2025 - Aug 2025",
+                                                                location: "Remote",
+                                                                description:
+                                                                                                "Built a Python simulation framework (pandas) modeling asset allocation and redemption flows for a decentralized liquidity protocol, running scenario sweeps across market conditions to validate protocol stability; projected ~20% improvement in asset velocity based on simulated redemption patterns.",
+                                                                color: "#9b1578",
+                                    },
+                                                    ],
+            },
+                    ],
 };
 
 // Projects Page
@@ -382,6 +382,38 @@ const publications = {
       },
         ],
 };
+
+    const projects = {
+            data: [
+                {
+                                id: "kv-cache-fisher-thesis",
+                                name: "kv-cache-fisher-thesis",
+                                description:
+                                                    "M.S. thesis code: low-rank KV cache compression in LLMs -- baselines, ablations, and reproducibility logs.",
+                                createdAt: "2026-08-01T00:00:00Z",
+                                url: "https://github.com/dhawalshah48/kv-cache-fisher-thesis",
+                                languages: [{ name: "Python", skillName: "python", iconifyClass: "logos:python" }],
+                },
+                {
+                                id: "h1b-startup-finder",
+                                name: "h1b-startup-finder",
+                                description:
+                                                    "Automated daily scraper and scoring pipeline for YC-backed startups hiring ML/AI roles with H1B sponsorship, built with Apify and GitHub Actions.",
+                                createdAt: "2026-08-15T00:00:00Z",
+                                url: "https://github.com/dhawalshah48/h1b-startup-finder",
+                                languages: [{ name: "Python", skillName: "python", iconifyClass: "logos:python" }],
+                },
+                {
+                                id: "nlp-projects",
+                                name: "NLP-Projects",
+                                description:
+                                                    "Coursework projects (ISU COMS-5790): text classification, word-cloud and TF-IDF analysis, and NLP data processing pipelines.",
+                                createdAt: "2024-12-01T00:00:00Z",
+                                url: "https://github.com/dhawalshah48/NLP-Projects",
+                                languages: [{ name: "Jupyter Notebook", skillName: "jupyter", iconifyClass: "logos:jupyter" }],
+                },
+                    ],
+    };
 
 // Contact Page
 const contactPageData = {
@@ -426,6 +458,7 @@ export {
     certifications,
     experience,
     projectsHeader,
+        projects,
     publicationsHeader,
     publications,
     contactPageData,
