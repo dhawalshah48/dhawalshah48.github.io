@@ -1,4 +1,4 @@
-/* Change this file to get your personal Porfolio */
+United States, RemoteUnited States, Remote/* Change this file to get your personal Porfolio */
 
 // Website related settings
 const settings = {
@@ -300,7 +300,7 @@ const experience = {
                                                                 company_url: "https://github.com/dhawalshah48",
                                                                 logo_path: "hermamind_logo.svg",
                                                                 duration: "Jan 2026 - Aug 2026",
-                                                                location: "Remote",
+                                                                location: "United States, Remote",
                                                                 description:
                                                                                                 "Founding engineer on a friend's AI-assisted B2B RFQ-to-quote platform, working directly with the CEO/co-founder. Built a LangGraph agent orchestration layer with typed Pydantic state, deterministic transitions, tool invocation, and human-approval checkpoints -- reducing invalid execution outcomes by 100% and improving end-to-end task reliability from 25% to 100% across an adversarial test suite. Designed a typed tool execution framework for SQL-backed customer/product/pricing capabilities, eliminating failed tool executions and hallucinated recommendations across 10 tool-call scenarios. Built a provider-agnostic model routing layer across OpenAI, Anthropic, Ollama, and Qwen, cutting inference cost ~93% while holding task success at 100% across routing comparisons. Architected multi-tenant persistence with PostgreSQL, FastAPI, and Alembic, and shipped a GitHub Actions CI/CD pipeline with a 200+ test suite. Has a standing offer to return remotely after this engagement.",
                                                                 color: "#0879bf",
