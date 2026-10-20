@@ -327,6 +327,17 @@ const experience = {
                                                                                                 "Automated 30% of 100,000+ manual document-processing decisions across 4 teams, cutting per-document processing time from 10 minutes to 1 minute and freeing up analyst hours for higher-value review. Built a model abstraction layer that auto-served the best candidate model per task based on confidence and historical accuracy, enabling safe rollout of new models without client-facing downtime. Operated services on AWS (SageMaker, EKS, EC2); used ClearML for experiment tracking and Label Studio for human-in-the-loop annotation and active-learning label collection.",
                                                                 color: "#1F70C1",
                                     },
+                                    {
+                                        title: "Engineering Intern",
+                                        company: "Avalara Technologies",
+                                        company_url: "https://www.avalara.com/",
+                                        logo_path: "avalara_logo.svg",
+                                        duration: "Feb 2020 - Jul 2020",
+                                        location: "Greater Chennai Area, India",
+                                        description:
+                                            "Automated Hadoop job orchestration on AWS EMR via shell scripting, replacing a third-party scheduler -- the automation work that led into the full-time Software Engineer offer.",
+                                        color: "#1F70C1",
+                                    },
                                                     ],
             },
             {
