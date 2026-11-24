@@ -151,6 +151,9 @@
   }
   .card-top{display:flex; justify-content:space-between; gap:10px; align-items:baseline;}
   .card-title{font-family:var(--font-mono); font-weight:600; font-size:0.95rem;}
+  a.card-title{text-decoration:none; color:inherit; border-bottom:1px dotted var(--border); padding-bottom:1px;}
+  a.card-title:hover, a.card-title:focus-visible{border-color:var(--accent); color:var(--accent); outline:none;}
+  a.card-title::after{content:" ↗"; font-size:0.78rem; color:var(--muted);}
   .card-tag{
     font-family:var(--font-mono); font-size:0.68rem; text-transform:uppercase; letter-spacing:0.05em;
     color:var(--accent-2); border:1px solid var(--border); padding:2px 7px; border-radius:3px; white-space:nowrap;
@@ -312,7 +315,7 @@
 
     <div class="card-grid" style="margin-top:28px;">
       <div class="card">
-        <div class="card-top"><span class="card-title">kv-cache-fisher-thesis</span><span class="card-tag">thesis</span></div>
+        <div class="card-top"><a class="card-title" href="https://github.com/dhawalshah48/kv-cache-fisher-thesis">kv-cache-fisher-thesis</a><span class="card-tag">thesis</span></div>
         <p>M.S. thesis code — low-rank KV cache compression in LLMs: baselines, ablations, and reproducibility logs.</p>
         <span class="card-date">Aug 2026</span>
       </div>
@@ -327,22 +330,22 @@
         <span class="card-date">Dec 2025 – May 2026</span>
       </div>
       <div class="card">
-        <div class="card-top"><span class="card-title">SEC Financial Intelligence Agent</span><span class="card-tag">ongoing</span></div>
+        <div class="card-top"><a class="card-title" href="https://github.com/dhawalshah48/sec-financial-intelligence-agent">SEC Financial Intelligence Agent</a><span class="card-tag">ongoing</span></div>
         <p>Agentic research assistant over SEC 10-K filings and live news — RAG on bge-base/Qdrant, Redis Streams ingestion with backpressure and crash reclaim, evaluated with RAGAS Faithfulness and Context Precision.</p>
         <span class="card-date">ongoing</span>
       </div>
       <div class="card">
-        <div class="card-top"><span class="card-title">Compression-Aware LLM Serving Platform</span><span class="card-tag">in progress</span></div>
+        <div class="card-top"><a class="card-title" href="https://github.com/dhawalshah48/llm_serving">Compression-Aware LLM Serving Platform</a><span class="card-tag">in progress</span></div>
         <p>Load-testing harness for Llama 3.1 8B on vLLM (GCP spot L4), measuring TTFT/TPOT/latency/goodput against SLOs; fp16 baseline and spot-preemption recovery runbook so far, compression variants in progress.</p>
         <span class="card-date">in progress</span>
       </div>
       <div class="card">
-        <div class="card-top"><span class="card-title">h1b-startup-finder</span><span class="card-tag">tooling</span></div>
+        <div class="card-top"><a class="card-title" href="https://github.com/dhawalshah48/h1b-startup-finder">h1b-startup-finder</a><span class="card-tag">tooling</span></div>
         <p>Automated daily scraper and scoring pipeline for YC-backed startups hiring ML/AI roles with H1B sponsorship, built with Apify and GitHub Actions.</p>
         <span class="card-date">Aug 2026</span>
       </div>
       <div class="card">
-        <div class="card-top"><span class="card-title">jobsearch-mcp</span><span class="card-tag">tooling</span></div>
+        <div class="card-top"><a class="card-title" href="https://github.com/dhawalshah48/jobsearch-mcp">jobsearch-mcp</a><span class="card-tag">tooling</span></div>
         <p>Personal MCP server exposing 16 tools to Claude for job-fit scoring, resume-tailoring briefs, and outreach drafting — draft-only, never sends or applies on its own.</p>
         <span class="card-date">2026</span>
       </div>
@@ -357,7 +360,7 @@
         <span class="card-date">COMS 5710X</span>
       </div>
       <div class="card">
-        <div class="card-top"><span class="card-title">NLP-Projects</span><span class="card-tag">coursework</span></div>
+        <div class="card-top"><a class="card-title" href="https://github.com/dhawalshah48/NLP-Projects">NLP-Projects</a><span class="card-tag">coursework</span></div>
         <p>Text classification, TF-IDF and word-cloud analysis, and NLP data pipelines. ISU COMS-5790.</p>
         <span class="card-date">2024</span>
       </div>
