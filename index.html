@@ -234,6 +234,7 @@
       <div class="hero-meta-row"><dt>focus</dt><dd>agentic systems · LLM efficiency · MLOps</dd></div>
       <div class="hero-meta-row"><dt>based</dt><dd>Ames, Iowa — open to relocation</dd></div>
       <div class="hero-meta-row"><dt>stack</dt><dd>Python · PyTorch · LangGraph · FastAPI · AWS</dd></div>
+      <div class="hero-meta-row"><dt>phone</dt><dd><a href="tel:+15156860507">+1 (515) 686-0507</a></dd></div>
     </dl>
 
     <div class="cta-row">
@@ -284,6 +285,9 @@
         </div>
         <ul class="log-list">
           <li>Built and operated the same document-classification and entity-extraction pipelines from the ground up; promoted to Senior after three years.</li>
+          <li>Built an asynchronous model-training job service with FastAPI and Redis: generated job IDs for long-running training runs, ran them in the background, and updated/polled job status in the database.</li>
+          <li>Built the UI for an Intelligent Document Processing platform in OutSystems, with AWS Textract for document extraction.</li>
+          <li>Built the team's initial Streamlit demo app.</li>
         </ul>
       </div>
 
@@ -292,6 +296,9 @@
           <div><span class="log-role">AI Engineer Intern</span> · <span class="log-org">Digitenium</span></div>
           <span class="log-time">Jun – Aug 2025</span>
         </div>
+        <ul class="log-list">
+          <li>Generated 3M simulated transactions to assess the profitability of the business logic, which showed the swap logic needed overflow and underflow guardrails.</li>
+        </ul>
       </div>
     </div>
   </section>
@@ -320,14 +327,34 @@
         <span class="card-date">Dec 2025 – May 2026</span>
       </div>
       <div class="card">
+        <div class="card-top"><span class="card-title">SEC Financial Intelligence Agent</span><span class="card-tag">ongoing</span></div>
+        <p>Agentic research assistant over SEC 10-K filings and live news — RAG on bge-base/Qdrant, Redis Streams ingestion with backpressure and crash reclaim, evaluated with RAGAS Faithfulness and Context Precision.</p>
+        <span class="card-date">ongoing</span>
+      </div>
+      <div class="card">
+        <div class="card-top"><span class="card-title">Compression-Aware LLM Serving Platform</span><span class="card-tag">in progress</span></div>
+        <p>Load-testing harness for Llama 3.1 8B on vLLM (GCP spot L4), measuring TTFT/TPOT/latency/goodput against SLOs; fp16 baseline and spot-preemption recovery runbook so far, compression variants in progress.</p>
+        <span class="card-date">in progress</span>
+      </div>
+      <div class="card">
         <div class="card-top"><span class="card-title">h1b-startup-finder</span><span class="card-tag">tooling</span></div>
         <p>Automated daily scraper and scoring pipeline for YC-backed startups hiring ML/AI roles with H1B sponsorship, built with Apify and GitHub Actions.</p>
         <span class="card-date">Aug 2026</span>
       </div>
       <div class="card">
+        <div class="card-top"><span class="card-title">jobsearch-mcp</span><span class="card-tag">tooling</span></div>
+        <p>Personal MCP server exposing 16 tools to Claude for job-fit scoring, resume-tailoring briefs, and outreach drafting — draft-only, never sends or applies on its own.</p>
+        <span class="card-date">2026</span>
+      </div>
+      <div class="card">
         <div class="card-top"><span class="card-title">RLHF Comparison</span><span class="card-tag">coursework</span></div>
-        <p>Compared DPO, PPO, and GRPO on a shared task; owned the GRPO implementation. COMS 6730, Fall 2025.</p>
+        <p>Compared DPO, PPO, and GRPO on a shared task; owned the GRPO implementation. GRPO reached a 72.8% win rate at under 60% of PPO's compute cost. COMS 6730, Fall 2025.</p>
         <span class="card-date">Fall 2025</span>
+      </div>
+      <div class="card">
+        <div class="card-top"><span class="card-title">Microscopy Cell Counting</span><span class="card-tag">coursework</span></div>
+        <p>Data augmentation and a coordinate-transform script to correct class imbalance from limited labeled data; contributed to uncertainty-quantification analysis (conformalized quantile regression).</p>
+        <span class="card-date">COMS 5710X</span>
       </div>
       <div class="card">
         <div class="card-top"><span class="card-title">NLP-Projects</span><span class="card-tag">coursework</span></div>
@@ -342,6 +369,13 @@
       Compute ran on NCSA Delta under an ACCESS allocation.<br><br>
       <strong>Background —</strong> structured pruning (N:M sparsity, isomorphic pruning, SALR, SAfER, LSA, ASAF, B-Prune),
       vision transformers (DeiT, MAE, ViT), and a Responsible AI project on microscopy cell counting addressing class-imbalance via targeted data augmentation.
+    </div>
+
+    <div class="research-note" style="margin-top:14px;">
+      <strong>Publications —</strong><br>
+      <em>Low-Rank KV Cache Compression in LLMs: A Second-Order Output Metric and Its Limits</em> — M.S. Thesis, Iowa State University (Aug 2026). <a href="https://www.proquest.com/dissertations-theses/low-rank-kv-cache-compression-llms-second-order/docview/3380554573/se-2?accountid=10906">ProQuest</a><br>
+      Esmat, S.; Shah, D.; Jannesari, A. — <em>VarRate: Training-Free Variable-Rate KV Cache Compression for Long-Context LLMs</em> — arXiv preprint, not peer-reviewed (Jul 2026). <a href="https://arxiv.org/abs/2607.15498">arXiv:2607.15498</a><br>
+      Shah, D.; Kumbhkar, M. — <em>An Analysis on Use of Big Data in Cloud Computing Environment</em> — Zenodo (Jun 2018). <a href="https://zenodo.org/records/1288453">Zenodo</a>
     </div>
   </section>
 
@@ -371,9 +405,10 @@
       <div class="skill-group">
         <h3>Cloud &amp; DevOps</h3>
         <ul>
-          <li>AWS — EKS, EC2, SageMaker, S3</li>
+          <li>AWS — EKS, EC2, SageMaker, S3, Textract</li>
           <li>Docker and Kubernetes for containerized workloads</li>
           <li>GitHub Actions CI/CD with test suites as PR merge gates</li>
+          <li>GCP (Compute Engine, spot VMs); vLLM for LLM inference serving</li>
         </ul>
       </div>
       <div class="skill-group">
@@ -423,6 +458,7 @@
     <div class="contact-grid" style="margin-top:22px;">
       <a class="contact-item" href="mailto:dhawalshah48@gmail.com"><span class="ico">✉</span> dhawalshah48@gmail.com</a>
       <a class="contact-item" href="mailto:dhawal04@iastate.edu"><span class="ico">✉</span> dhawal04@iastate.edu</a>
+      <a class="contact-item" href="tel:+15156860507"><span class="ico">☎</span> +1 (515) 686-0507</a>
       <a class="contact-item" href="https://www.linkedin.com/in/dhawalshah04/"><span class="ico">in</span> linkedin.com/in/dhawalshah04</a>
       <a class="contact-item" href="https://github.com/dhawalshah48"><span class="ico">⌥</span> github.com/dhawalshah48</a>
     </div>
